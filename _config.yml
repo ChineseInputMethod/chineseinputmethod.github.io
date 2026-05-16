@@ -61,7 +61,7 @@ plugins:
 author:
   name   : "Three Input"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "聪明的输入法称心如意."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
@@ -114,3 +114,8 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+collections:
+  docs:
+    output: true
+    permalink: /docs/:path/
