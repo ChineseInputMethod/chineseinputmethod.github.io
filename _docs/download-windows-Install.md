@@ -1,5 +1,5 @@
 ---
-title: "Quick-Start Guide"
+title: "在Windows系统中安装三拼输入法"
 layout: single
 sidebar:
   nav: "docs"

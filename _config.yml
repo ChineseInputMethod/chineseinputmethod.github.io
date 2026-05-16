@@ -61,7 +61,7 @@ plugins:
 author:
   name   : "Three Input"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "聪明的输入法称心如意."
+  bio    : "聪明的输入法懂你心意."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"

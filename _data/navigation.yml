@@ -9,13 +9,19 @@ main:
     url: /about/
 
 docs:
-  - title: "Getting Started"
+  - title: "下载安装"
     children:
-      - title: "Quick-Start Guide"
-        url: /docs/quick-start-guide/
-      - title: "Structure"
+      - title: "Windows"
+        url: /docs/download-windows-Install/
+      - title: "Linux"
         url: /docs/structure/
-  - title: "Customization"
+      - title: "Other"
+        url: /docs/structure/
+  - title: "学习教程"
     children:
-      - title: "Configuration"
+      - title: "声母"
+        url: /docs/configuration/
+      - title: "韵母"
+        url: /docs/configuration/
+      - title: "零声母"
         url: /docs/configuration/
