@@ -13,9 +13,9 @@ docs:
     children:
       - title: "Windows"
         url: /docs/download-windows-Install/
+      - title: "macOS"
+        url: /docs/download-macos-Install/
       - title: "Linux"
-        url: /docs/structure/
-      - title: "Other"
         url: /docs/structure/
   - title: "学习教程"
     children:
