@@ -1,5 +1,6 @@
 ---
 title: "在Windows系统中安装三拼输入法"
+date: 2026-05-18 10:30:00 +0800
 layout: single
 sidebar:
   nav: "docs"

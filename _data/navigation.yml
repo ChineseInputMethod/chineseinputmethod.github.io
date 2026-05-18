@@ -12,11 +12,11 @@ docs:
   - title: "下载安装"
     children:
       - title: "Windows"
-        url: /docs/download-windows-Install/
+        url: /docs/download-windows-install/
       - title: "macOS"
-        url: /docs/download-macos-Install/
+        url: /docs/download-macos-install/
       - title: "Linux"
-        url: /docs/structure/
+        url: /docs/download-linux-install/
   - title: "学习教程"
     children:
       - title: "声母"
@@ -24,4 +24,8 @@ docs:
       - title: "韵母"
         url: /docs/configuration/
       - title: "零声母"
+        url: /docs/configuration/
+      - title: "直接辅助码"
+        url: /docs/configuration/
+      - title: "笔画反查"
         url: /docs/configuration/

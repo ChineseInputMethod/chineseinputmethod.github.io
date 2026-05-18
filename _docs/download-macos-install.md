@@ -1,5 +1,6 @@
 ---
 title: "在macOS系统中安装三拼输入法"
+date: 2026-05-18 10:30:01 +0800
 layout: single
 toc: true
 toc_label: "安装步骤"  # 自定义目录的标题名称（可选）
@@ -31,9 +32,8 @@ sidebar:
 
 ```yaml
 patch:
-  schema_list:
-    - schema: three
-    - schema: luna_pinyin  # 可以保留系统自带的朙月拼音作为备用（可选）
+  "schema_list/@0":
+    schema: three
 ```
 
 > **⚠️ 注意**：YAML 格式对空格极其敏感，`patch:` 下方必须缩进（建议使用 2 个空格），请勿使用 Tab 键。
