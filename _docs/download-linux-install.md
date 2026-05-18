@@ -9,42 +9,71 @@ sidebar:
   nav: "docs"
 ---
 
-### 1 安装须鼠管
+在Linux中安装三拼输入法的步骤基本相同，打开[中州韵输入法引擎][linux]，查看Linux 发行版和输入法框架的安装说明。<br>
+本文以Ubuntu的ibus框架举例说明如何安装。
 
-打开中州韵输入法引擎网站，[下载安装须鼠管][Squirrel]
+### 1 安装ibus-rime
 
-### 2 打开用户文件夹
+打开终端，执行以下命令安装 `ibus-rime`
 
-点击 macOS 右上角状态栏的**鼠须管图标**。<br>
-在下拉菜单中选择 **「⚙️ 设置...」**（或「用户设定」）。<br>
-打开 Finder 窗口，该目录即为用户配置文件夹，路径通常为 `~/Library/Rime`。
+```bash
+sudo apt update
+sudo apt install ibus-rime
+```
 
-### 3 放入三拼输入法配方
+然后重启 IBus服务
 
-[打开三拼输入法仓库][three]，将其中的配方放入用户文件夹
+```bash
+ibus restart
+```
+
+### 2 添加 Rime 输入源
+
+打开系统 设置 (Settings) -> 点击 键盘 (Keyboard)。<br>
+找到 输入源 (Input Sources)，点击下方的 + 号。<br>
+在弹出的窗口中点击 汉语 (Chinese)。<br>
+选中 中文 (Rime)，点击右上角的 添加 (Add)。
+
+![ibus](/assets/images/download/linux/ibus.png)
+
+### 3 初始部署Rime 
+
+点击右上角输入法图标，在弹出菜单中，切换到中文（Rime）
+
+![rime](/assets/images/download/linux/rime.png)
+
+### 4 添加三拼输入法
+
+打开rime用户文件夹<br>
+在ibus框架中，rime的用户文件夹，通常为`~/.config/ibus/rime`。
+
+[打开三拼输入法仓库][three]，将其中的数据文件放入用户文件夹
 
 ![three](/assets/images/download/macos/three.png)
 
-### 4 修改配置
+### 5 修改配置
 
-在当前用户文件夹中，检查是否存在名为 **`default.custom.yaml`** 的文件。如果没有，请手动新建一个文本文档并重命名为此文件名。<br>
+在rime用户文件夹中，检查是否存在名为 **`default.custom.yaml`** 的文件。如果没有，请手动新建一个文本文档并重命名为此文件名。<br>
 用文本编辑器（如自带的“文本编辑”或 VS Code）打开 `default.custom.yaml`，并在文件中添加以下代码：
 
 ```yaml
 patch:
-  schema_list:
-    - schema: three
-    - schema: luna_pinyin  # 可以保留系统自带的朙月拼音作为备用（可选）
+  "schema_list/@0":
+    schema: three
 ```
 
 > **⚠️ 注意**：YAML 格式对空格极其敏感，`patch:` 下方必须缩进（建议使用 2 个空格），请勿使用 Tab 键。
 
-### 5 重新部署鼠须管
+### 6 重新部署
 
-再次点击 macOS 右上角状态栏的鼠须管图标。<br>
-点击 「⟲ 重新部署」（或「部署」）。<br>
-稍等几秒钟，当右上角图标闪烁并恢复常态后，代表部署成功。<br>
-按下快捷键 ``Ctrl + ` ``(Control + 反引号) 呼出方案选单，切换到三拼输入法，即可完成安装！
+再次点击 右上角状态栏的輸入法图标。<br>
+点击 「⟲ 重新部署」（或「部署」）。
 
-[Squirrel]: https://rime.im/download/
+![deploy](/assets/images/download/linux/deploy.png)
+
+稍等几秒钟，打开文本编辑器，按下快捷键 ``Ctrl + ` ``(Control + 反引号) 呼出方案选单，切换到三拼输入法，即可完成安装！
+
+![three](/assets/images/download/linux/three.png)
+
+[linux]: https://rime.im/download/
 [three]: https://github.com/ChineseInputMethod/three

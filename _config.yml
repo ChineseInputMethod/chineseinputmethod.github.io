@@ -116,7 +116,7 @@ defaults:
       toc: false        # 全局开启右侧目录导航
       toc_sticky: true  # 让目录在滚动页面时固定在右侧
       # show_date: false        # ❌ 不显示文章的发布时间
-      # last_modified_at: false  # ❌ 不显示文章的最近更新时间
+      last_modified_at: false  # ❌ 不显示文章的最近更新时间
       
 category_archive:
   type: liquid
