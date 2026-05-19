@@ -19,15 +19,15 @@ sidebar:
 在下拉菜单中选择 **「⚙️ 设置...」**（或「用户设定」）。<br>
 打开 Finder 窗口，该目录即为用户配置文件夹，路径通常为 `~/Library/Rime`。
 
-### 3 放入三拼输入法配方
+### 3 放入三拼输入法数据文件
 
-[打开三拼输入法仓库][three]，将其中的配方放入用户文件夹
+[打开三拼输入法仓库][three]，将其中的数据文件放入用户文件夹
 
 ![three](/assets/images/download/macos/three.png)
 
 ### 4 修改配置
 
-在当前用户文件夹中，检查是否存在名为 **`default.custom.yaml`** 的文件。如果没有，请手动新建一个文本文档并重命名为此文件名。<br>
+在用户文件夹中，检查是否存在名为 **`default.custom.yaml`** 的文件。如果没有，请手动新建一个文本文档并重命名为此文件名。<br>
 用文本编辑器（如自带的“文本编辑”或 VS Code）打开 `default.custom.yaml`，并在文件中添加以下代码：
 
 ```yaml
@@ -43,7 +43,7 @@ patch:
 再次点击 macOS 右上角状态栏的鼠须管图标。<br>
 点击 「⟲ 重新部署」（或「部署」）。<br>
 稍等几秒钟，当右上角图标闪烁并恢复常态后，代表部署成功。<br>
-按下快捷键 ``Ctrl + ` ``(Control + 反引号) 呼出方案选单，切换到三拼输入法，即可完成安装！
+按下快捷键 ``Ctrl + ` ``(键盘左上角，数字1左边) ，在弹出的方案选单里，切换到三拼输入法，即可完成安装！
 
 [Squirrel]: https://rime.im/download/
 [three]: https://github.com/ChineseInputMethod/three

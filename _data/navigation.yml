@@ -20,12 +20,12 @@ docs:
   - title: "学习教程"
     children:
       - title: "声母"
-        url: /docs/configuration/
+        url: /docs/course-initial-guide/
       - title: "韵母"
-        url: /docs/configuration/
+        url: /docs/course-final-guide/
       - title: "零声母"
-        url: /docs/configuration/
+        url: /docs/course-zero-guide/
       - title: "直接辅助码"
-        url: /docs/configuration/
+        url: /docs/course-auxiliary-guide/
       - title: "笔画反查"
-        url: /docs/configuration/
+        url: /docs/course-stroke-guide/

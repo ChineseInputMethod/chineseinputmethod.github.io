@@ -1,9 +1,9 @@
 ---
-title: "在macOS系统中安装三拼输入法"
-date: 2026-05-18 10:30:02 +0800
+title: "使用三拼输入法，如何输入声母"
+date: 2026-05-18 10:31:00 +0800
 layout: single
 toc: true
-toc_label: "安装步骤"  # 自定义目录的标题名称（可选）
+toc_label: "如何输入声母"  # 自定义目录的标题名称（可选）
 toc_icon: "cog"       # 自定义目录标题前的图标（可选）
 sidebar:
   nav: "docs"
