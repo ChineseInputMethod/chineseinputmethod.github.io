@@ -27,10 +27,10 @@ sudo apt install ibus-rime
 ibus restart
 ```
 
-### 2 添加 Rime 输入源
+### 2 添加输入源
 
 打开系统 设置 (Settings) -> 点击 键盘 (Keyboard)。<br>
-找到 输入源 (Input Sources)，点击下方的 + 号。<br>
+找到 输入源 (Input Sources)，点击下方的 + 添加输入源(A)号。<br>
 在弹出的窗口中点击 汉语 (Chinese)。<br>
 选中 中文 (Rime)，点击右上角的 添加 (Add)。
 

@@ -1,0 +1,19 @@
+# _data/links.yml
+- category: "技术博客"
+  items:
+    - title: "Minimal Mistakes 官网"
+      url: "https://mmistakes.github.io/minimal-mistakes/"
+      desc: "大名鼎鼎的 Jekyll 博客主题文档"
+    - title: "Jekyll 官方中文网"
+      url: "https://jekyll.com.cn"
+      desc: "静态网站生成器内核指南"
+
+- category: "常用工具"
+  items:
+    - title: "GitHub"
+      url: "https://github.com"
+      desc: "代码托管与开源社区"
+    - title: "Can I Use"
+      url: "https://caniuse.com"
+      desc: "前端前端浏览器兼容性查询"
+

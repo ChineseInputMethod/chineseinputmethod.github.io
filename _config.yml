@@ -115,8 +115,6 @@ defaults:
       layout: single    # 确保使用 single 布局（Minimal Mistakes 只有该布局支持 TOC）
       toc: false        # 全局开启右侧目录导航
       toc_sticky: true  # 让目录在滚动页面时固定在右侧
-      show_date: false        # ❌ 不显示文章的发布时间
-      # last_modified_at: false  # ❌ 不显示文章的最近更新时间
       
 category_archive:
   type: liquid
@@ -129,3 +127,9 @@ collections:
   docs:
     output: true
     permalink: /docs/:path/
+
+analytics:
+  provider: "google-gtag" # 指定使用 Google Analytics 4
+  google:
+    tracking_id: "G-PVY03PZHK5" # 替换为你在 Google Analytics 获取的以 G- 开头的衡量 ID
+

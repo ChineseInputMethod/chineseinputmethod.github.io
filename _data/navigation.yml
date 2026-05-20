@@ -1,12 +1,8 @@
 main:
-  - title: "Posts"
-    url: /posts/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
-  - title: "About"
-    url: /about/
+  - title: "💰 赞助"
+    url: /donate/
+  - title: "站外链接"
+    url: /links/
 
 docs:
   - title: "下载安装"
