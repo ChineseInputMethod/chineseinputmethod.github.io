@@ -1,5 +1,5 @@
 # _data/links.yml
-- category: "技术博客"
+- category: "图文"
   items:
     - title: "Minimal Mistakes 官网"
       url: "https://mmistakes.github.io/minimal-mistakes/"
@@ -8,7 +8,15 @@
       url: "https://jekyll.com.cn"
       desc: "静态网站生成器内核指南"
 
-- category: "常用工具"
+- category: "视频"
+  items:
+    - title: "GitHub"
+      url: "https://github.com"
+      desc: "代码托管与开源社区"
+    - title: "Can I Use"
+      url: "https://caniuse.com"
+      desc: "前端前端浏览器兼容性查询"
+- category: "课程"
   items:
     - title: "GitHub"
       url: "https://github.com"

@@ -30,7 +30,7 @@ ibus restart
 ### 2 添加输入源
 
 打开系统 设置 (Settings) -> 点击 键盘 (Keyboard)。<br>
-找到 输入源 (Input Sources)，点击下方的 + 添加输入源(A)号。<br>
+找到 输入源 (Input Sources)，点击下方的 + 添加输入源(A)。<br>
 在弹出的窗口中点击 汉语 (Chinese)。<br>
 选中 中文 (Rime)，点击右上角的 添加 (Add)。
 
@@ -45,7 +45,7 @@ ibus restart
 ### 4 添加三拼输入法
 
 打开rime用户文件夹<br>
-在ibus框架中，rime的用户文件夹，通常为`~/.config/ibus/rime`。
+在ibus框架中，rime的用户文件夹，通常为`~/.config/ibus/rime`
 
 [打开三拼输入法仓库][three]，将其中的数据文件放入用户文件夹
 
@@ -53,7 +53,8 @@ ibus restart
 
 ### 5 修改配置
 
-在rime用户文件夹中，检查是否存在名为 **`default.custom.yaml`** 的文件。如果没有，请手动新建一个文本文档并重命名为此文件名。<br>
+在rime用户文件夹中，检查是否存在名为 **`default.custom.yaml`** 的文件<br>
+如果没有，请手动新建一个文本文档并重命名为此文件名。<br>
 用文本编辑器（如自带的“文本编辑”或 VS Code）打开 `default.custom.yaml`，并在文件中添加以下代码：
 
 ```yaml
@@ -71,7 +72,7 @@ patch:
 
 ![deploy](/assets/images/download/linux/deploy.png)
 
-按下快捷键 ``Ctrl + ` ``(键盘左上角，数字1左边) ，在弹出的方案选单里，切换到三拼输入法，即可完成安装！
+按下快捷键 ``Ctrl + ` ``(在键盘左上角，数字1左边) ，在弹出的方案选单里，切换到三拼输入法，即可完成安装！
 
 ![three](/assets/images/download/linux/three.png)
 
