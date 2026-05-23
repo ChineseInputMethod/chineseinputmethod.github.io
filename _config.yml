@@ -78,15 +78,15 @@ author:
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    - label: "Weibo"
+      icon: "fab fa-fw fa-weibo"
+      url: "https://weibo.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ChineseInputMethod"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+    - label: "zhihu"
+      icon: "fab fa-fw fa-zhihu"
+      url: "https://zhihu.com/"
 
 defaults:
   # _posts

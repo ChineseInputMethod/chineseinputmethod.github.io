@@ -30,4 +30,37 @@ feature_row:
 三拼输入法专为解决这些问题而发明。
 <br>
 只需要记住10个声母和韵母的键位，就可以解决你在使用拼音输入法打字时遇到的所有烦恼。
-{% include feature_row %}
+<p></p>
+ 
+<!-- 1. 外层父容器：开启 Flex 布局，并允许换行，同时强制子项等高 -->
+<div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: stretch; margin-bottom: 2em; text-align: center;">
+
+  <!-- 第一栏：下载安装 -->
+  <div style="flex: 1; min-width: 80px; display: flex; flex-direction: column; justify-content: space-between; background: #f9f9f9; padding: 15px; border-radius: 4px;">
+    <div>
+      <h3 style="margin-top: 0; font-weight: bold;">下载安装</h3>
+      <p style="color: #666; font-size: 0.9em; line-height: 1.5;">Windows系统点击下方链接直接下载</p>
+    </div>
+    <a href="https://github.com/ChineseInputMethod/three/releases/download/2026.6.1.0/weasel-0.17.4.41.93eec2d-installer.exe" class="btn btn--primary" style="margin-top: 15px; align-self: center;">立即下载</a>
+  </div>
+
+  <!-- 第二栏：学习教程 -->
+  <div style="flex: 1; min-width: 80px; display: flex; flex-direction: column; justify-content: space-between; background: #f9f9f9; padding: 15px; border-radius: 4px;">
+    <div>
+      <h3 style="margin-top: 0; font-weight: bold;">学习教程</h3>
+      <p style="color: #666; font-size: 0.9em; line-height: 1.5;">学习拼音输入、直接辅助码输入</p>
+    </div>
+    <a href="/docs/course-initial-guide/" class="btn btn--primary" style="margin-top: 15px; align-self: flex-start; align-self: center;">开始学习</a>
+  </div>
+
+  <!-- 第三栏：高级定制 -->
+  <div style="flex: 1; min-width: 8px; display: flex; flex-direction: column; justify-content: space-between; background: #f9f9f9; padding: 15px; border-radius: 4px;">
+    <div>
+      <h3 style="margin-top: 0; font-weight: bold;">高级定制</h3>
+      <p style="color: #666; font-size: 0.9em; line-height: 1.5;">中州韵Rime系统的数据文件</p>
+    </div>
+    <a href="https://github.com/ChineseInputMethod/three" class="btn btn--primary" style="margin-top: 15px; align-self: flex-start; align-self: center;">源码仓库</a>
+  </div>
+
+</div>
+
