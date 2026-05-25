@@ -81,12 +81,12 @@ footer:
     - label: "Weibo"
       icon: "fab fa-fw fa-weibo"
       url: "https://weibo.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/ChineseInputMethod"
     - label: "zhihu"
       icon: "fab fa-fw fa-zhihu"
       url: "https://zhihu.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/ChineseInputMethod"
 
 defaults:
   # _posts

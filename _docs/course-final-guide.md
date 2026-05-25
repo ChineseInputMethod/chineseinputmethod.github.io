@@ -13,7 +13,7 @@ sidebar:
 
 ### 1 如何输入韵母ü
 
-输入lü、nü时，韵母ü用字母v输入；其余情况下的韵母ü，用字母u输入
+只有在输入音节lü、nü时，韵母ü才用字母v输入；其余情况下的韵母ü，均用字母u输入
 
 <div style="text-align: margin: 20px 0;">
   <video style="max-width: 100%; width: auto; height: auto;" autoplay loop muted playsinline>
