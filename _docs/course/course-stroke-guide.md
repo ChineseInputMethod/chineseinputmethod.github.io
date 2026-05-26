@@ -68,6 +68,6 @@ sidebar:
 
 ### 6 一、丨、丿、丶、乙的键位图
 
-可以直接使用一、丨、丿、丶、乙的字母编码，进行笔画输入
+可以直接使用一、丨、丿、丶、乙的字母编码h、g、p、t、m，进行笔画输入
 
-![ibus](/assets/images/course/stroke/stroke.png)
+![stroke](/assets/images/course/stroke/stroke.png)
