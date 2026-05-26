@@ -34,7 +34,7 @@ sidebar:
   </video>
 </div>
 
-### 3 如何输入声母音节ai、ao、an、ang、eng
+### 3 如何输入零声母音节ai、ao、an、ang、eng
 
 在输入零声母音节ai、ao、an、ang、eng时，在其被映射的按键编码前加零声母o
 
@@ -51,7 +51,7 @@ sidebar:
 
 <div style="text-align: margin: 20px 0;">
   <video style="max-width: 100%; width: auto; height: auto;" autoplay loop muted playsinline>
-    <source src="/assets/videos/course/zero/er.webm" type="video/webm">
+    <source src="/assets/videos/course/zero/erer.webm" type="video/webm">
     您的浏览器不支持 HTML5 视频播放。
   </video>
 </div>
@@ -60,4 +60,4 @@ sidebar:
 
 零声母φ映射在O键上，在输入零声母音节时，在其编码前加字母o
 
-![ibus](/assets/images/course/zero/zero.png)
+![zero](/assets/images/course/zero/zero.png)

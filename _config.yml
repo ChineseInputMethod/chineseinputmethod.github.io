@@ -126,7 +126,7 @@ tag_archive:
 collections:
   docs:
     output: true
-    permalink: /docs/:path/
+    permalink: /docs/:slug/
 
 analytics:
   provider: "google-gtag" # 指定使用 Google Analytics 4

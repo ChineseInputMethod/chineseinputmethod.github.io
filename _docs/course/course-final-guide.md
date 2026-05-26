@@ -103,4 +103,4 @@ sidebar:
 
 只需要记住 ai、ao、an、ang、eng、ing、ong这七个韵母的键位，其余韵母的输入与全拼输入法完全相同
 
-![ibus](/assets/images/course/final/final.png)
+![final](/assets/images/course/final/final.png)

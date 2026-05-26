@@ -45,5 +45,8 @@ patch:
 稍等几秒钟，当右上角图标闪烁并恢复常态后，代表部署成功。<br>
 按下快捷键 ``Ctrl + ` ``(在键盘左上角，数字1左边) ，在弹出的方案选单里，切换到三拼输入法，即可完成安装！
 
+{:target="_blank" rel="noopener noreferrer"}
 [Squirrel]: https://rime.im/download/
+
+{:target="_blank" rel="noopener noreferrer"}
 [three]: https://github.com/ChineseInputMethod/three

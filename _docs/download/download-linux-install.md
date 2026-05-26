@@ -29,16 +29,16 @@ ibus restart
 
 ### 2 添加输入源
 
-打开系统 设置 (Settings) -> 点击 键盘 (Keyboard)。<br>
-找到 输入源 (Input Sources)，点击下方的 + 添加输入源(A)。<br>
-在弹出的窗口中点击 汉语 (Chinese)。<br>
-选中 中文 (Rime)，点击右上角的 添加 (Add)。
+打开系统 设置 (Settings) -> 点击 键盘 (Keyboard)<br>
+找到 输入源 (Input Sources)，点击下方的 + 添加输入源(A)<br>
+在弹出的窗口中点击 汉语 (Chinese)<br>
+选中 中文 (Rime)，点击右上角的 添加 (Add)
 
 ![ibus](/assets/images/download/linux/ibus.png)
 
 ### 3 初始部署Rime 
 
-点击右上角输入法图标，在弹出菜单中，切换到中文（Rime），等待几秒钟完成Rime的初始部署。
+点击右上角输入法图标，在弹出菜单中，切换到中文（Rime），等待几秒钟完成Rime的初始部署
 
 ![rime](/assets/images/download/linux/rime.png)
 
@@ -76,5 +76,8 @@ patch:
 
 ![three](/assets/images/download/linux/three.png)
 
+{:target="_blank" rel="noopener noreferrer"}
 [linux]: https://rime.im/download/
+
+{:target="_blank" rel="noopener noreferrer"}
 [three]: https://github.com/ChineseInputMethod/three

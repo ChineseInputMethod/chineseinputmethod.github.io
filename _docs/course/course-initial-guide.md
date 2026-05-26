@@ -57,4 +57,4 @@ sidebar:
 
 只需要记住zh、ch、sh的键位，其余声母与汉语拼音方案完全相同
 
-![ibus](/assets/images/course/initial/initial.png)
+![initial](/assets/images/course/initial/initial.png)

@@ -21,7 +21,7 @@ docs:
         url: /docs/course-final-guide/
       - title: "零声母"
         url: /docs/course-zero-guide/
+      - title: "笔画输入"
+        url: /docs/course-stroke-guide/
       - title: "直接辅助码"
         url: /docs/course-auxiliary-guide/
-      - title: "笔画反查"
-        url: /docs/course-stroke-guide/
