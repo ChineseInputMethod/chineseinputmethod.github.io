@@ -5,14 +5,6 @@ main:
     url: /links/
 
 docs:
-  - title: "下载安装"
-    children:
-      - title: "Windows"
-        url: /docs/download-windows-install/
-      - title: "macOS"
-        url: /docs/download-macos-install/
-      - title: "Linux"
-        url: /docs/download-linux-install/
   - title: "学习教程"
     children:
       - title: "声母"
@@ -25,3 +17,11 @@ docs:
         url: /docs/course-stroke-guide/
       - title: "辅助码"
         url: /docs/course-auxiliary-guide/
+  - title: "下载安装"
+    children:
+      - title: "Windows"
+        url: /docs/download-windows-install/
+      - title: "macOS"
+        url: /docs/download-macos-install/
+      - title: "Linux"
+        url: /docs/download-linux-install/
