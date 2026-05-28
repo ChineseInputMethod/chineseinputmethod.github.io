@@ -108,13 +108,17 @@ defaults:
       type: pages
     values:
       layout: single
-      author_profile: true
+      author_profile: false
+      sidebar:
   # _docs
   - scope:
       path: ""          # 空字符串表示匹配所有路径
       type: docs        # 必须对应上面定义的集合名称 docs
     values:
       layout: single    # 确保使用 single 布局（Minimal Mistakes 只有该布局支持 TOC）
+      author_profile: false
+      sidebar:
+        nav: "docs"
       toc: false        # 全局开启右侧目录导航
       toc_sticky: true  # 让目录在滚动页面时固定在右侧
       
