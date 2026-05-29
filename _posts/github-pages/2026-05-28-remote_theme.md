@@ -1,6 +1,6 @@
 ---
 title: "在GitHub Pages上架设网站最简单的方法"
-date: 2026-04-28T16:00:00+08:00
+date: 2026-05-28T16:00:00+08:00
 categories:
   - GitHub Pages
 tags:
@@ -10,9 +10,9 @@ tags:
 
 GitHub Pages的官方文档实在让人一言难尽，说的内容都对，但是新手看了大体都是蒙的
 
-其实使用远程主题，可以[一键生成][minimal-mistakes],开箱即用
+其实使用远程主题，可以[一键生成][minimal-mistakes]，开箱即用
 
-![remote_theme](/assets/images/GitHub Pages/remote_theme.png)
+![remote_theme](/assets/images/github-pages/remote_theme/minimal-mistakes.png)
 
 本站就是折腾了很久，最后选择了这个最简单的方法
 
