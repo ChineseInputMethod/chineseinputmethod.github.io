@@ -1,5 +1,5 @@
 ---
-title: "在VMware中，安装 Ubuntu 26H1"
+title: "在VMware中，安装 Ubuntu"
 date: 2026-05-30T16:00:00+08:00
 categories:
   - GitHub Pages
