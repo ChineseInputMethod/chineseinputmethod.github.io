@@ -2,7 +2,7 @@
 title: "在VMware中，安装 Ubuntu"
 date: 2026-05-30T16:00:00+08:00
 categories:
-  - GitHub Pages
+  - GitHub-Pages
 tags:
   - Ubuntu
   - open-vm-tools

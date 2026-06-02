@@ -2,7 +2,7 @@
 title: "在GitHub Pages上架设网站最简单的方法"
 date: 2026-05-28T16:00:00+08:00
 categories:
-  - GitHub Pages
+  - GitHub-Pages
 tags:
   - remote_theme
   - minimal-mistakes

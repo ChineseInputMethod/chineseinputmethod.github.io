@@ -102,6 +102,7 @@ defaults:
       comments: true
       share: true
       related: true
+      toc_sticky: true  # 让目录在滚动页面时固定在右侧
   # _pages
   - scope:
       path: "_pages"

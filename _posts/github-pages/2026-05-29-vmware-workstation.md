@@ -2,7 +2,7 @@
 title: "安装VMware Workstation"
 date: 2026-05-29T16:00:00+08:00
 categories:
-  - GitHub Pages
+  - GitHub-Pages
 tags:
   - VMware Workstation
   - 汉化

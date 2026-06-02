@@ -1,8 +1,8 @@
 ---
 title: "搭建jekyll本地运行环境"
-date: 2026-05-30T16:00:00+08:00
+date: 2026-06-01T12:00:00+08:00
 categories:
-  - GitHub Pages
+  - GitHub-Pages
 tags:
   - ruby
   - jekyll
@@ -17,7 +17,7 @@ sudo apt install make gcc g++
 sudo apt install ruby-dev
 {: .notice}
 
-#### 2 配置gem
+#### 2 配置Gem
 echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc  
 echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc  
 echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc  
