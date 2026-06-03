@@ -11,7 +11,7 @@ toc_label: "克隆远程主题"  # 自定义目录的标题名称（可选）
 toc_icon: "tools"       # 自定义目录标题前的图标（可选）
 ---
 
-#### 1 安装 Git
+#### 1 安装Git
 ```bash
 sudo apt update
 sudo apt install git -y
@@ -30,7 +30,7 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 ```bash
 cat ~/.ssh/id_rsa.pub
 ```
-#### 5 将公钥添加到 GitHub
+#### 5 将公钥添加到GitHub
 {% capture notice-2 %}
 * 登录网页版 GitHub，点击右上角头像 -> 选择 Settings。
 * 在左侧菜单栏找到并点击 SSH and GPG keys。
@@ -44,7 +44,12 @@ cat ~/.ssh/id_rsa.pub
 ```bash
 ssh -T git@github.com
 ```
-#### 7 使用 SSH进行 Git操作
+#### 7 使用SSH clone远程主题
 ```bash
 git clone git@github.com:你的用户名/你的仓库名.git
+```
+#### 8 本地调试远程主题
+```bash
+cd 你的仓库名
+bundle exec jekyll serve
 ```

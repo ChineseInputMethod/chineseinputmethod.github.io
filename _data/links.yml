@@ -1,9 +1,8 @@
 # _data/links.yml
 - category: "图文"
   items:
-    - title: "Minimal Mistakes 官网"
-      url: "https://mmistakes.github.io/minimal-mistakes/"
-      desc: "大名鼎鼎的 Jekyll 博客主题文档"
+    - title: "百度贴吧"
+      url: "https://tieba.baidu.com/f?kw=%E4%B8%89%E6%8B%BC%E8%BE%93%E5%85%A5%E6%B3%95&fr=personalize_page"
     - title: "Jekyll 官方中文网"
       url: "https://jekyll.com.cn"
       desc: "静态网站生成器内核指南"
