@@ -55,6 +55,6 @@ sidebar:
 
 ### 5 全部声母的键位图
 
-只需要记住zh、ch、sh的键位，其余声母与汉语拼音方案完全相同
+只需要记住zh、ch、sh的键位，其余声母与汉语拼音方案完全相同。
 
 ![initial](/assets/images/course/initial/initial.png)

@@ -32,10 +32,10 @@ cat ~/.ssh/id_rsa.pub
 ```
 #### 5 将公钥添加到GitHub
 {% capture notice-2 %}
-* 登录网页版 GitHub，点击右上角头像 -> 选择 Settings。
-* 在左侧菜单栏找到并点击 SSH and GPG keys。
-* 点击右上角的 New SSH key。
-* Title 随便填一个名字（比如 My Laptop），Key 粘贴你刚刚复制的全部内容，点击 Add SSH key 保存。
+* 登录网页版 GitHub，点击右上角头像 -> 选择 Settings
+* 在左侧菜单栏找到并点击 SSH and GPG keys
+* 点击右上角的 New SSH key
+* Title 随便填一个名字（比如 My Laptop），Key 粘贴你刚刚复制的全部内容，点击 Add SSH key 保存
 {% endcapture %}
 <div class="notice">
   {{ notice-2 | markdownify }}
@@ -51,5 +51,6 @@ git clone git@github.com:你的用户名/你的仓库名.git
 #### 8 本地调试远程主题
 ```bash
 cd 你的仓库名
+bundle install
 bundle exec jekyll serve
 ```

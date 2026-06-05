@@ -1,5 +1,5 @@
 ---
-title: "使用三拼输入法，如何笔画输入"
+title: "使用三拼输入法，如何输入笔画"
 date: 2026-05-18 10:31:03 +0800
 layout: single
 toc: true
@@ -68,6 +68,6 @@ sidebar:
 
 ### 6 一、丨、丿、丶、乙的键位图
 
-可以直接使用一、丨、丿、丶、乙的字母编码h、g、p、t、m，进行笔画输入
+可以使用一、丨、丿、丶、乙的字母编码h、g、p、t、m，进行笔画输入。
 
 ![stroke](/assets/images/course/stroke/stroke.png)
