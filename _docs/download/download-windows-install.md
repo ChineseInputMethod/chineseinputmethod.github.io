@@ -22,4 +22,4 @@ Windows 11<br>
 现在就可以使用三拼输入法打字了
 ![hello](/assets/images/download/windows/hello.png)
 
-[download]: https://github.com/ChineseInputMethod/three/releases/download/2026.6.1.0/weasel-0.17.4.41.93eec2d-installer.exe
+[download]: https://github.com/ChineseInputMethod/three/releases/download/2026.9.1.1/weasel-0.17.4.41.93eec2d-installer.exe
