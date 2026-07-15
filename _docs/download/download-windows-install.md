@@ -10,7 +10,13 @@ Windows 10<br>
 Windows 11<br>
 可以[直接下载][download]三拼输入法
 
-下载后，运行安装程序
+下载后，运行安装程序，如果弹出Microsoft Defender SmartScreen 安全拦截提示
+![defender](/assets/images/download/windows/defender.png)
+
+点击更多信息
+![smartscreen](/assets/images/download/windows/smartscreen.png)
+
+点击仍要运行
 ![install](/assets/images/download/windows/install.png)
 
 选择默认选项，直到安装完成

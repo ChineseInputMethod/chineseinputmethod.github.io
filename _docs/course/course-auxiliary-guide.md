@@ -59,4 +59,4 @@ sidebar:
 
 三拼输入法的10个音码码元和5个形码码元，全部位于指法最容易操作的键位上。
 
-![auxiliary](/assets/images/course/auxiliary/auxiliary.png)
+![auxiliary](/assets/images/course/auxiliary/keyboard.png)
