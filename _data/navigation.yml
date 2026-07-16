@@ -1,9 +1,13 @@
 main:
-  - title: "赞助本站"
-    url: /donate/
-  - title: "站外链接"
-    url: /links/
-
+  - title: "学习教程"
+    url: /docs/course-initial-guide/
+  - title: "下载安装"
+    url: /docs/download-windows-install/
+  - title: "macOS"
+    url: /docs/download-macos-install//
+  - title: "Linux"
+    url: /docs/download-linux-install/
+    
 docs:
   - title: "学习教程"
     children:
