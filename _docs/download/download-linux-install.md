@@ -47,7 +47,7 @@ ibus restart
 打开rime用户文件夹<br>
 在ibus框架中，rime的用户文件夹，通常为`~/.config/ibus/rime`
 
-[打开三拼输入法仓库][three]，将其中的数据文件放入用户文件夹
+[下载数据文件][three]，解压后将数据文件放入用户文件夹
 
 ![three](/assets/images/download/macos/three.png)
 
@@ -80,4 +80,4 @@ patch:
 [linux]: https://rime.im/download/
 
 {:target="_blank" rel="noopener noreferrer"}
-[three]: https://github.com/ChineseInputMethod/three
+[three]: https://github.com/ChineseInputMethod/three/archive/refs/heads/main.zip

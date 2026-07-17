@@ -21,7 +21,7 @@ sidebar:
 
 ### 3 放入三拼输入法的数据文件
 
-[打开三拼输入法仓库][three]，将其中的数据文件放入用户文件夹
+[下载数据文件][three]，解压后将数据文件放入用户文件夹
 
 ![three](/assets/images/download/macos/three.png)
 
@@ -49,4 +49,4 @@ patch:
 [Squirrel]: https://rime.im/download/
 
 {:target="_blank" rel="noopener noreferrer"}
-[three]: https://github.com/ChineseInputMethod/three
+[three]: https://github.com/ChineseInputMethod/three/archive/refs/heads/main.zip
