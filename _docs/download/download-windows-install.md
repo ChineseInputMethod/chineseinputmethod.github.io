@@ -34,4 +34,4 @@ Windows 11<br>
 
 ![hello](/assets/images/download/windows/hello.png)
 
-[download]: https://github.com/ChineseInputMethod/three/releases/download/2026.9.1.1/weasel-0.17.4.41.93eec2d-installer.exe
+[download]: https://github.com/ChineseInputMethod/three/releases/download/2611/weasel-0.17.4.50.d73f629-installer.exe
