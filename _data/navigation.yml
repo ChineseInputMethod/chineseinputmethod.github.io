@@ -7,6 +7,8 @@ main:
     url: /docs/download-macos-install//
   - title: "Linux"
     url: /docs/download-linux-install/
+  - title: "forAI"
+    url: /categories/#for-ai
     
 docs:
   - title: "学习教程"
